@@ -208,11 +208,13 @@
 // Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'): 
 // <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples>
 
-const totalMinutes = prompt('Введіть кількість хвилин');
+// const totalMinutes = prompt('Введіть кількість хвилин');
 
-const hours = Math.floor(totalMinutes / 60);
-const minutes = totalMinutes % 60;
-const formattedHours = String(hours).padStart(2, '0');
-const formattedMinutes = String(minutes).padStart(2, '0');
+// const hours = Math.floor(totalMinutes / 60);
+// const minutes = totalMinutes % 60;
+// const formattedHours = String(hours).padStart(2, '0');
+// const formattedMinutes = String(minutes).padStart(2, '0');
 
-console.log(`${formattedHours}:${formattedMinutes}`);
+// console.log(`${formattedHours}:${formattedMinutes}`);
+
+//Number.isNaN(value) строга перевірка на номери.
